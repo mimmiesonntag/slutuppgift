@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<html>
+<head>
+  <link
+  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Best movies of 2021</title>
+  </head>
+  <body>
+    <BODY onLoad="startaKlockan()"></BODY>
+<header>
+  <div class="navbar">
+    <a href="startsida.html">Startsida</a>
+    <a href="https://www.imdb.com/what-to-watch/?ref_=hm_watch_btn">IMBD</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Välj Kategori
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="romantik.html">Romantik</a>
+      <a href="komedi.html">Komedi</a>
+      <a href="barnfilm.html">Barnfilm</a>
+      <a href="horror.html">Skräck</a>
+    </div>
+    </div> 
+  </div>
+  </header>
+          <main>
+       
+      <div class="slideshow-container">
+      
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/68/Bad_Trip_poster.jpg" style="width:100%">
+            <div class="text">Bad Trip</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://s1.adlibris.com/images/29348263/moxie.jpg" style="width:100%">
+            <div class="text">Moxie</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://m.media-amazon.com/images/M/MV5BZTAzN2ZlZTEtOTA5ZS00MGFjLTliYWMtYTQzYTFlYTIwZDVmXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg" style="width:100%">
+            <div class="text">Space Jam: A New Legacy</div>
+          </div>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+    <main>
+
+      <div id="indexContainer">
+
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt11337862/?ref_=fn_al_tt_1"><img class="indexImg" src="https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/396011/ee30f9dcbddb1add291b54aeb789c8b4-large_5e1b809a7b34a7159f2340c09c89e980-FRIENDS-REUNION_Key-Art-Final_Vertical_PR1.jpeg"/></a>
+        </div> 
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt11466222/?ref_=fn_al_tt_1"><img class="indexImg" src="https://i.pinimg.com/originals/3c/f8/39/3cf8392a90201916fe6dd1d507a776e9.jpg"/></a>
+        </div> 
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt10334148/?ref_=fn_al_tt_1"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BZjhjNjVmNGYtOTU2MC00ZTJlLTg5ZjMtNDk5MjZmYmVhMWEyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"/></a>
+        </div> 
+        <div class="indexLinks"> 
+          <a href="https://www.imdb.com/title/tt3797512/?ref_=fn_al_tt_1"><img class="indexImg" src="https://sfanytime-images-prod-http2.secure2.footprint.net/COVERM/COVERM_d7fb91c6-24ad-4ebc-92ea-82e82b873ac1_01.jpg?w=375&ar=0.692&fit=crop&fm=pjpg&s=d0867b47788216008cc138de48b33b9f"/></a>
+        </div>
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt13061914/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BZDQwY2I3MmYtZDQ2Zi00YTM3LTg2ZTQtOTJjM2I2Y2M3OGMwXkEyXkFqcGdeQXVyNzE3ODQxNjU@._V1_.jpg"/></a>
+        </div>  
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt10121392/?ref_=fn_al_tt_1"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BMWZkM2I2NjEtNWM0Mi00MTgwLWJlYTAtYmNkZWYzNmQ1ZTBiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"/></a>
+        </div>  
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt9849004/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BMGMxMzBhNDQtODJhNy00NDBmLWI5NTYtMTJkMjUxYjE0OWZjXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_.jpg"/></a>
+        </div>  
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt4513678/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://catalog.cinema-api.com/cf/images/ncg-images/d7092433d7e241fea36cf43a5a2cd67e.jpg?width=240&version=439D33CC5AA65C1C03785133855CB0F3&format=webp"/></a>
+        </div>
+      </div>
+   
+    </main>
+    <script src="index.js"></script>
+    <footer>
+      <FORM name="klockForm">
+        <INPUT type="text" name="startPlats" size="19" style="text-align: Center">
+        </FORM>
+        <p class="fot">© 2021</p>
+      </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
