@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<html>
+<head>
+  <link
+  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Best movies of 2021</title>
+  </head>
+  <body>
+    <BODY onLoad="startaKlockan()">
+<header>
+  <div class="navbar">
+    <a href="startsida.html">Startsida</a>
+    <a href="https://www.imdb.com/what-to-watch/?ref_=hm_watch_btn">IMBD</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Välj Kategori
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="romantik.html">Romantik</a>
+      <a href="komedi.html">Komedi</a>
+      <a href="barnfilm.html">Barnfilm</a>
+      <a href="horror.html">Skräck</a>
+    </div>
+    </div> 
+  </div>
+  </header>
+    <main>
+
+ 
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://m.media-amazon.com/images/M/MV5BYmQzNmY3YzItOTE3OC00NGZjLTkwZDYtOWVmM2QyMzhiYTgwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" style="width:100%">
+      <div class="text">Who Made Tony Soprano</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://m.media-amazon.com/images/M/MV5BNzYzZTI2YmQtYmZlOS00NDI0LTg5MTktODJkNzc2Yzg0ZmMxXkEyXkFqcGdeQXVyNTQwOTY1MTg@._V1_FMjpg_UX1000_.jpg" style="width:100%">
+      <div class="text">Lamb</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Needle_in_a_Timestack.jpg/220px-Needle_in_a_Timestack.jpg" style="width:100%">
+      <div class="text">Needle in a Haystack</div>
+    </div>
+
+
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <br>
+      <div class="container marketing">
+        <!-- START THE FEATURETTES -->
+        <center><h1>TOP 3 MOVIES OF 2021</h1>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+
+          </div>
+          <div class="col-md-5">
+            <img id="icon"
+              src="https://m.media-amazon.com/images/M/MV5BYmQzNmY3YzItOTE3OC00NGZjLTkwZDYtOWVmM2QyMzhiYTgwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Tony</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+            </svg>
+          </div>
+        </div>
+        <h2 class="animate__animated animate__fadeIn animate__slower animate__infinite">
+          <center><span class="text-muted">Who Made Tony Soprano</span></center>
+          </h2>
+          <p class="lead"> A look at the formative years of New Jersey gangster Tony Soprano.<br>
+            </p>
+          </p>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+          <div class="col-md-5 order-md-1">
+            <img id="icon"
+              src="https://m.media-amazon.com/images/M/MV5BNzYzZTI2YmQtYmZlOS00NDI0LTg5MTktODJkNzc2Yzg0ZmMxXkEyXkFqcGdeQXVyNTQwOTY1MTg@._V1_FMjpg_UX1000_.jpg"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>lamb</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+            </svg>
+          </div>
+        </div>
+        <h2 class="animate__animated animate__fadeIn animate__slower animate__infinite">
+          <center><span class="text-muted"> Lamb</span></center>
+         </h2>
+         <p class="lead">A childless couple, María and Ingvar discover a mysterious newborn on their farm in Iceland. The unexpected prospect of family life brings them much joy, before ultimately destroying them.</p>
+       </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+          
+          <div class="col-md-5">
+            <img id="icon"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Needle_in_a_Timestack.jpg/220px-Needle_in_a_Timestack.jpg"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>needle</title>
+              <rect width="100%" height="100%" fill="#eee"></rect>
+            </svg>
+          </div>
+        </div>
+        <h2 class="animate__animated animate__fadeIn animate__slower animate__infinite">
+        <center><span class="text-muted">Needle in a Timestack</span></center>
+      </h2>
+     <p class="lead">
+          Nick and Janine live in marital bliss until Janine's ex-husband warps time to try to tear them apart. As Nick's memories disappear, he must decide what he's willing to sacrifice in order to hold onto - or let go of - everything he loves.
+      </p>
+    </center>
+    </div>
+        <hr class="featurette-divider" />
+      </div>
+
+    <br>
+    <div class="form">
+    <form action="/action_page.php">
+      E-mail: <input type="email" id="myEmail" name="email" autocomplete="on">
+      <input type="submit">
+      </form>
+      <p id="email"></
+      </div>
+    </main>
+
+    <footer>
+      <FORM name="klockForm">
+        <INPUT type="text" name="startPlats" size="19" style="text-align: Center">
+        </FORM>
+        <p class="fot">© 2021</p>
+      </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
