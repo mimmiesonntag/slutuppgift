@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<html>
+<head>
+  <link
+  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Best movies of 2021</title>
+  </head>
+  <body>
+    <BODY onLoad="startaKlockan()">
+<header>
+  <div class="navbar">
+    <a href="startsida.html">Startsida</a>
+    <a href="https://www.imdb.com/what-to-watch/?ref_=hm_watch_btn">IMBD</a>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Välj Kategori
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="romantik.html">Romantik</a>
+      <a href="komedi.html">Komedi</a>
+      <a href="barnfilm.html">Barnfilm</a>
+      <a href="horror.html">Skräck</a>
+    </div>
+    </div> 
+  </div>
+  </header>
+          <main>
+       
+      <div class="slideshow-container">
+      
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg" style="width:100%">
+            <div class="text">Luca</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://www.themoviedb.org/t/p/original/iJkZicEBiK3SPVVqbZX9kB1PszU.jpg" style="width:100%">
+            <div class="text">Raya</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://prod.cdn.bbaws.net/TDC_Blockbuster_-_Production/612/944/DI-11326198633138002_po-reg-medium_orig-1629177914868.jpg" style="width:100%">
+            <div class="text">Cruella</div>
+          </div>
+
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
+    <main>
+
+      <div id="indexContainer">
+
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt7979580/?ref_=fn_al_tt_1"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDItYzc4MC00NTkxLTk1MWEtY2UyZjY5MjUwNDNkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg"/></a>
+        </div> 
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt10635042/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/395144/small_37453f03ee12175d0ec7d230baeb45a9-SailorMoonEternalTheMovie_Main_Part2_Vertical_RGB_PRE_SV.jpg"/></a>
+                </div> 
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt11084896/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://image.posterlounge.se/images/l/1901007.jpg"/></a>
+                </div> 
+        <div class="indexLinks"> 
+          <a href="https://www.imdb.com/title/tt8376234/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BYjkyMDQyZWQtNGFhYy00NjdmLWEzMjctYzAxMmJkNDkxZmRlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"/></a>
+                </div>
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt5562070/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BNDg0N2NiZTAtZWVjNy00YmJlLWI0NDktMjFkMmRiZGIyNzRmXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg"/></a>
+                </div>  
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt6932874/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://m.media-amazon.com/images/M/MV5BYWY1N2I5MGUtZTBmNS00MWZmLWEyNzAtZjliNzk0ZDVkYzI1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"/></a>
+                </div>  
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt0870154/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://lumiere-a.akamaihd.net/v1/images/image_04c33520.jpeg?region=0%2C0%2C540%2C810"/></a>
+                </div>  
+        <div class="indexLinks">
+          <a href="https://www.imdb.com/title/tt6338498/?ref_=nv_sr_srsg_0"><img class="indexImg" src="https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/402655/373b1b42f2c6418618f5702879cef414-vivo_xlg.jpg"/></a>
+                </div>
+        
+      </div>
+   
+    </main>
+    <script src="index.js"></script>
+    <footer>
+      <FORM name="klockForm">
+        <INPUT type="text" name="startPlats" size="19" style="text-align: Center">
+        </FORM>
+        <p class="fot">© 2021</p>
+      </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
